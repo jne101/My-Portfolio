@@ -1,15 +1,43 @@
+:root {
+  --branding-color: blueviolet;
+  --secondary-color: #f9f7fe;
+  --text-color: gainsboro;
+  --heading-font-family: "Marcellus", serif;
+  --body-font-family: "Ubuntu", sans-serif;
+}
+
 body {
-text-align: center;
-margin-top: 200px;
+  font-family: var(--body-font-family: "Ubuntu", sans-serif);
 }
 
 h1 {
-  color:blueviolet;
-  font-family: 'Marcellus', serif;
+  color: var(--branding-color);
+  font-family: var(--heading-font-family);
+  font-size: 60px;
 }
 
-p{
-   color: gainsboro;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 15px;
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 250px;
+  border: 1px solid blueviolet;
+}
+
+.hero p {
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+  font-size: 18px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  color: white;
+  font-family: var(--heading-font-family);
+  border-radius: 4px;
+  line-height: 20px;
+  padding: 10px 20px;
+}
+
+.btn-branding hover {
+  color: white;
 }
