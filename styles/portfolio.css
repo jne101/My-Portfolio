@@ -19,7 +19,7 @@ h1 {
 h2 {
   color: var(--branding-color);
   font-family: var(--heading-font-family);
-  font-size: 35px;
+  font-size: 43px;
 }
 
 p {
@@ -48,6 +48,10 @@ p {
 .project-description{
   padding: 0;
   text-align: center;
+}
+
+h2 {
+  font-size: 35px;
 }
 
 .hero h1, p, a {
