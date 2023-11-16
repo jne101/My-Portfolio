@@ -1,7 +1,7 @@
 :root {
   --branding-color: blueviolet;
   --secondary-color: #f9f7fe;
-  --text-color: #C5C5C5;
+  --text-color: #c5c5c5;
   --heading-font-family: "Marcellus", serif;
   --body-font-family: "Ubuntu", sans-serif;
 }
@@ -31,18 +31,26 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 250px;
-}
-
-@media (max-width: 700px) {
-.hero {
-text-align: center;}
+  padding: 250px 0;
 }
 
 .hero p {
   color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: 18px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+.project-description{
+  padding-bottom: 10px;
+  padding-top: 0;
+  text-align: center;
+}
+
 }
 
 .btn-branding {
