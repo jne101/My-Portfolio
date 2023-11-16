@@ -31,13 +31,18 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 170px 0;
+  padding: 185px 0;
 }
 
 .hero p {
   color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: 18px;
+}
+
+.sub-headline {
+  font-size: 19px;
+  padding: 20px;
 }
 
 .project-description {
