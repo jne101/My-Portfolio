@@ -46,11 +46,13 @@ p {
 
 @media (max-width: 960px) {
 .project-description{
-  padding-bottom: 10px;
-  padding-top: 0;
+  padding: 0;
   text-align: center;
 }
 
+.hero h1, p, a {
+  margin: 8px;
+}
 }
 
 .btn-branding {
