@@ -49,23 +49,33 @@ p {
   padding: 120px 60px;
 }
 
+.about-hero {
+  padding: 185px 0 0 200px;
+}
+
+.about-section-content {
+margin: 30px;
+}
+
 @media (max-width: 960px) {
-.project-description{
-  padding: 0;
-  text-align: center;
-}
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 
-h2 {
-  font-size: 35px;
-}
+  h2 {
+    font-size: 35px;
+  }
 
-.hero {
-  padding: 80px 20px;
-}
+  .hero {
+    padding: 80px 20px;
+  }
 
-.hero h1, p, a {
-  margin: 8px;
-}
+  .hero h1,
+  p,
+  a {
+    margin: 8px;
+  }
 }
 
 .btn-branding {
@@ -77,10 +87,6 @@ h2 {
   padding: 10px 20px;
 }
 
-.btn-branding hover {
-  color: white;
-}
-
 .btn-branding-outline {
   line-height: 20px;
   padding: 10px 20px;
@@ -88,3 +94,13 @@ h2 {
   color: var(--text-color);
   border: 1px solid var(--branding-color);
 }
+
+.about-hero h1 {
+  font-size: 40px;
+}
+
+.about-hero h2 {
+  font-size: 25px;
+}
+
+
