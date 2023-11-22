@@ -49,11 +49,11 @@ p {
   padding: 120px 60px;
 }
 
-.about-hero {
+.content-container {
   padding: 185px 220px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 
@@ -77,7 +77,7 @@ p {
     margin: 8px;
   }
 
-  .about-hero {
+  .content-container {
     padding: 0;
     text-align: center;
   }
@@ -100,10 +100,10 @@ p {
   border: 1px solid var(--branding-color);
 }
 
-.about-hero h1 {
+.content-container h1 {
   font-size: 40px;
 }
 
-.about-hero h2 {
+.content-container h2 {
   font-size: 25px;
 }
