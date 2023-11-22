@@ -50,11 +50,11 @@ p {
 }
 
 .about-hero {
-  padding: 185px 0 0 200px;
+  padding: 185px 220px;
 }
 
 .about-section-content {
-margin: 30px;
+  margin: 30px;
 }
 
 @media (max-width: 960px) {
@@ -75,6 +75,11 @@ margin: 30px;
   p,
   a {
     margin: 8px;
+  }
+
+  .about-hero {
+    padding: 0;
+    text-align: center;
   }
 }
 
@@ -102,5 +107,3 @@ margin: 30px;
 .about-hero h2 {
   font-size: 25px;
 }
-
-
