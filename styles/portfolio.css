@@ -128,7 +128,7 @@ p {
 }
 
 .content-container {
-  padding: 185px 220px;
+  padding: 80px 220px;
 }
 
 .content {
@@ -165,7 +165,7 @@ p {
   }
 
   .content-container {
-    padding: 0;
+    padding: 60px 0 0 0;
     text-align: center;
   }
 
