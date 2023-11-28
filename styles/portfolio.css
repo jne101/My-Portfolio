@@ -10,6 +10,10 @@ body {
   font-family: var(--body-font-family);
 }
 
+h4 {
+  font-size: 40px;
+}
+
 .logo {
   max-height: 40px;
   padding-top: 8px;
@@ -42,6 +46,46 @@ nav a {
 
 nav a:hover, nav li.active a {
   color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 130px;
+  border-radius: 10px;
+}
+
+footer .contact-box p{
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+margin: 0 20px;
+background: var(--secondary-color);
+padding: 10px 14px;
+border-radius: 50%;
+font-size: 20px;
+color: var(--branding-color);
+transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
 h1 {
@@ -106,6 +150,10 @@ p {
     font-size: 35px;
   }
 
+  h4 {
+    font-size: 30px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
@@ -119,6 +167,10 @@ p {
   .content-container {
     padding: 0;
     text-align: center;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 }
 
