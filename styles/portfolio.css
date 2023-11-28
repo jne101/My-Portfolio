@@ -10,6 +10,40 @@ body {
   font-family: var(--body-font-family);
 }
 
+.logo {
+  max-height: 40px;
+  padding-top: 8px;
+}
+
+.nav-container {
+margin-left: 5px;
+}
+
+nav {
+  padding: 11px 0 0 0;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+margin-left: 15px;
+line-height: 45px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+  color: var(--branding-color);
+}
+
 h1 {
   color: var(--branding-color);
   font-family: var(--heading-font-family);
@@ -62,6 +96,7 @@ p {
 }
 
 @media (max-width: 960px) {
+  
   .project-description {
     padding: 0;
     text-align: center;
